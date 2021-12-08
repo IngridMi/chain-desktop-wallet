@@ -11444,11 +11444,6 @@ multimap@^1.1.0:
   resolved "https://registry.yarnpkg.com/multimap/-/multimap-1.1.0.tgz"
   integrity sha512-0ZIR9PasPxGXmRsEF8jsDzndzHDj7tIav+JUmvIFB/WHswliFnquxECT/De7GR4yg99ky/NlRKJT82G1y271bw==
 
-nan@2.13.2:
-  version "2.13.2"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.13.2.tgz"
-  integrity sha512-TghvYc72wlMGMVMluVo9WRJc0mB8KxxF/gZ4YYFy7V2ZQX9l7rgbPg7vjS9mt6U5HXODVFVI2bOduCzwOMv/lw==
-
 nan@^2.12.1, nan@^2.13.2:
   version "2.14.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz"
@@ -11575,6 +11570,11 @@ node-addon-api@^3.0.2:
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.1.0.tgz"
   integrity sha512-flmrDNB06LIl5lywUz7YlNGZH/5p0M7W28k8hzd9Lshtdh1wshD2Y+U4h9LD6KObOy1f+fEVdgprPrEymjM5uw==
 
+node-addon-api@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-4.2.0.tgz#117cbb5a959dff0992e1c586ae0393573e4d2a87"
+  integrity sha512-eazsqzwG2lskuzBqCGPi7Ac2UgOoMz8JVOXVhTvvPDYhthvNpefx8jWD8Np7Gv+2Sz0FlPWZk0nJV0z598Wn8Q==
+
 node-forge@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz"
@@ -11584,6 +11584,11 @@ node-gyp-build@^4.2.0:
   version "4.2.3"
   resolved "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.2.3.tgz"
   integrity sha512-MN6ZpzmfNCRM+3t57PTJHgHyw/h4OWnZ6mR8P5j/uZtqQr46RRuDE/P+g3n0YR/AiYXeWixZZzaip77gdICfRg==
+
+node-gyp-build@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.3.0.tgz#9f256b03e5826150be39c764bf51e993946d71a3"
+  integrity sha512-iWjXZvmboq0ja1pUGULQBexmxq8CV4xBhX7VDOTbL7ZR4FOowwY/VOtRxBN/yKxmdGoIp4j5ysNT4u3S2pDQ3Q==
 
 node-hid@2.1.1:
   version "2.1.1"
@@ -16896,14 +16901,13 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
-usb@1.6.5:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/usb/-/usb-1.6.5.tgz"
-  integrity sha512-gLVrerQce+F+TSkWgzXACV07nOw+uBlv0gT3svsqTWWxNDe3ESQBIhss3qonIDArMvWPJp6z3I4hXEDYTmPlHQ==
+usb@1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/usb/-/usb-1.9.1.tgz#092a12455c8c21e4f0b7f4b3b0d37436f32f0ef7"
+  integrity sha512-T6DZbJAFNcxhY1FzaYdXhV2oqoRlvLhtSSmnbFAqyCxahUkc+g0BPZVXv7hIeQQxDCAQnr4Ia8bfOk1JlzNzzw==
   dependencies:
-    bindings "^1.4.0"
-    nan "2.13.2"
-    prebuild-install "^5.3.3"
+    node-addon-api "^4.2.0"
+    node-gyp-build "^4.3.0"
 
 usb@^1.7.0:
   version "1.7.2"
